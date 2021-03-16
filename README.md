@@ -1,6 +1,6 @@
 # Blendbench
 
-A plugin? addon? extension for modelbench to convert Minecraft json file and backwards. *currently as a standalone run with python*
+A plugin? addon? extension for modelbench to convert Minecraft json file and backwards as a Blender addon *currently as a standalone run with python*
 
 
 TODO:
