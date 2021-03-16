@@ -54,14 +54,10 @@ def load(file): # Load mimodel and Minecraft json
             texture_size=data["texture_size"]
         except KeyError:
             texture_size= defaultTextureSize
-        try:
-            groups = data["groups"]
-        except KeyError:
-            groups = []
         try: # Exception  No "elements" found
             elements = data["elements"] # Extract "elements"
 
-            return elements, texture, texture_size ,groups
+            return elements, texture, texture_size
         except KeyError:
             texture = data["texture"]
             texture_size = data["texture_size"]
@@ -84,7 +80,7 @@ def axisPart(axis,angle): #axis Rotation
     return rotation
 
 def convertBlock(filename): 
-    elements, texture, texture_size, groups = load(file)
+    elements, texture, texture_size = load(file)
     if texture == "Default texture":
         texture = "Default texture.png"
     else:
@@ -245,20 +241,21 @@ def convertModel(filename): #rewrite json or convert mimodel
         bbmodel_json = {
             "name": filename,
             "texture_size": texture_size,
-            "textures": texture.split('/')[1]+".png", 
+            "textures": texture, 
             "elements": [],
         }
         
         for part in parts:
             partData = part
-
+            
             elementName = partData["name"]
 
             shapes = partData["shapes"]
             for shape in shapes:
                 shapeData = shape
-                elementFrom = shape["from"]
-                elementTo = shape["to"]
+                elementFrom = shapeData["from"]
+                elementTo = shapeData["to"]
+                
             # elementRotate = elementData["rotation"]
             # elementAngle = elementRotate["angle"]
             # elementAxis = elementRotate["axis"]
@@ -277,27 +274,26 @@ def convertModel(filename): #rewrite json or convert mimodel
             # elementTo = elementTo.tolist()
             
 
-            # elementList.append({
-            #     "name": elementName,
-            #     "from": elementFrom,
-            #     "to" : elementTo,
-            #     "rotation": elementRotate,
-            #     "faces": elementFace
-            # })
+            elementList.append({
+                "name": elementName,
+                "from": elementFrom,
+                "to" : elementTo,
+                # "rotation": elementRotate,
+                # "faces": elementFace
+            })
             
 
         bbmodel_json["elements"] = elementList
-
+        print(bbmodel_json)
         return bbmodel_json
 
     if '.json' in filename:
-        blockbench()
-        filename = filename.replace('.json','')
+        bbmodel_json = blockbench()
+        
     else:
-        # modelbench()
-        print('Unfinish')
-        filename = filename.replace('.modelbench','')
-    
+        bbmodel_json = modelbench()
+        
+    return bbmodel_json
 def exportMI(filepath,filename):
     mimodel_json = convertBlock(filename)
     filepath = filepath+filename.replace('.json','')+filetype[1]
