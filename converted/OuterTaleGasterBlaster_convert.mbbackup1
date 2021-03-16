@@ -1,0 +1,2677 @@
+{
+	"name": "OuterTaleGasterBlaster_convert converted by Blendbench - zNight Animatics",
+	"texture": "texture.png",
+	"texture_size": [ 512, 512 ],
+	"parts": [
+		{
+			"name": "OuterTaleGasterBlaster_convert",
+			"position": [ 0, 0, 0 ],
+			"parts": [
+				{
+					"name": "head",
+					"position": [ -0.1, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 29.8, 11.6, 4 ],
+							"to": [ 35.4, 17, 23.3 ],
+							"uv": [ 143.85, 149.1 ],
+							"position": [ -29.9, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 1",
+					"position": [ -0.1, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 1 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 34.9, 7.7, 6.5 ],
+							"to": [ 33.2, 11.6, 4.9 ],
+							"uv": [ 32.55, 331.8 ],
+							"position": [ -29.9, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 2",
+					"position": [ -0.1, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 2 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 37.6, 8.2, 25.5 ],
+							"to": [ 36, 12.1, 23.8 ],
+							"uv": [ 32.55, 329.7 ],
+							"position": [ -29.9, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 3",
+					"position": [ 5.5, 13.3, -9.5 ],
+					"rotation": [ 0, 0, 45 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 3 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 33.8, 13.3, 9.5 ],
+							"to": [ 41, 18.8, 37 ],
+							"uv": [ 153.3, 60.9 ],
+							"position": [ -35.5, -13.3, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 4",
+					"position": [ 2.1, 16.2, -9.5 ],
+					"rotation": [ 0, 0, 22.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 4 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 32.6, 16.2, 9.5 ],
+							"to": [ 37.6, 21.7, 37 ],
+							"uv": [ 81.9, 99.75 ],
+							"position": [ -32.1, -16.2, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 5",
+					"position": [ 8.4, 19.7, -12.8 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 5 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 34.5, 17.7, 19 ],
+							"to": [ 41.3, 25.3, 21.8 ],
+							"uv": [ 81.9, 304.5 ],
+							"position": [ -38.4, -19.7, -17.2 ]
+						}
+					]
+				},
+				{
+					"name": "head 6",
+					"position": [ 8.4, 20.9, -15.5 ],
+					"rotation": [ 0, -45, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 6 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 34.5, 18.9, 16.3 ],
+							"to": [ 41.3, 25.7, 19 ],
+							"uv": [ 123.9, 304.5 ],
+							"position": [ -38.4, -20.9, -14.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 7",
+					"position": [ 9.3, 20.9, -16.6 ],
+					"rotation": [ 0, -45, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 7 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 37.8, 20.3, 17.4 ],
+							"to": [ 41.9, 24.2, 16.3 ],
+							"uv": [ 33.6, 329.7 ],
+							"position": [ -39.3, -20.9, -13.4 ]
+						}
+					]
+				},
+				{
+					"name": "head 8",
+					"position": [ 9.3, 20.9, -16.6 ],
+					"rotation": [ 0, -45, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 8 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 37.4, 19.9, 16.2 ],
+							"to": [ 42.2, 24.7, 16.8 ],
+							"uv": [ 23.1, 325.5 ],
+							"position": [ -39.3, -20.9, -13.4 ]
+						}
+					]
+				},
+				{
+					"name": "head 9",
+					"position": [ 9.3, 20.9, -16.6 ],
+					"rotation": [ 0, -45, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 9 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 37.8, 20.3, 16 ],
+							"to": [ 41.8, 24.3, 16.8 ],
+							"uv": [ 23.1, 321.3 ],
+							"position": [ -39.3, -20.9, -13.4 ]
+						}
+					]
+				},
+				{
+					"name": "head 10",
+					"position": [ 7.6, 20.9, -13.9 ],
+					"rotation": [ 22.5, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 10 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 33.6, 18.9, 17.9 ],
+							"to": [ 35, 25.7, 20.7 ],
+							"uv": [ 35.7, 312.9 ],
+							"position": [ -37.6, -20.9, -16.1 ]
+						}
+					]
+				},
+				{
+					"name": "head 11",
+					"position": [ 3.2, 14.3, -24.3 ],
+					"rotation": [ 0, 22.5, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 11 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 30.5, 11.6, 5.1 ],
+							"to": [ 36, 17.3, 12 ],
+							"uv": [ 58.8, 276.15 ],
+							"position": [ -33.2, -14.3, -5.7 ]
+						}
+					]
+				},
+				{
+					"name": "head 12",
+					"position": [ 2.1, 14.3, -25.1 ],
+					"rotation": [ 0, 45, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 12 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 30.6, 11.6, 3.8 ],
+							"to": [ 34.9, 17.3, 7.1 ],
+							"uv": [ 150.15, 304.5 ],
+							"position": [ -32.1, -14.3, -4.9 ]
+						}
+					]
+				},
+				{
+					"name": "head 13",
+					"position": [ 2.1, 17, -25.2 ],
+					"rotation": [ 0, 0, 45 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 13 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 29.4, 14.6, 4.3 ],
+							"to": [ 34.9, 17.5, 10.6 ],
+							"uv": [ 22.05, 292.95 ],
+							"position": [ -32.1, -17, -4.8 ]
+						}
+					]
+				},
+				{
+					"name": "head 14",
+					"position": [ 2.1, 19.8, -24.3 ],
+					"rotation": [ 0, 0, 45 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 14 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 32.5, 17.3, 5.1 ],
+							"to": [ 34.9, 22.5, 11.5 ],
+							"uv": [ 138.6, 292.95 ],
+							"position": [ -32.1, -19.8, -5.7 ]
+						}
+					]
+				},
+				{
+					"name": "head 15",
+					"position": [ -0.1, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 15 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 37.6, 8.2, 14.5 ],
+							"to": [ 36, 12.1, 12.8 ],
+							"uv": [ 32.55, 328.65 ],
+							"position": [ -29.9, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 16",
+					"position": [ -0.1, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 16 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 29.8, 17, 20.5 ],
+							"to": [ 40.9, 30.8, 34.3 ],
+							"uv": [ 60.9, 143.85 ],
+							"position": [ -29.9, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 17",
+					"position": [ 10.4, 17.3, 4.6 ],
+					"rotation": [ 0, 0, 45 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 17 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 34.5, 16.6, 20.8 ],
+							"to": [ 40.6, 24.2, 34.6 ],
+							"uv": [ 15.75, 211.05 ],
+							"position": [ -40.4, -17.3, -34.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 18",
+					"position": [ 6.8, 30.2, -7.8 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 18 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 29.9, 25.3, 18.6 ],
+							"to": [ 39.8, 30.8, 25.2 ],
+							"uv": [ 123.9, 246.75 ],
+							"position": [ -36.8, -30.2, -22.2 ]
+						}
+					]
+				},
+				{
+					"name": "head 19",
+					"position": [ -7, 30.2, -7.8 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 19 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 29.8, 25.3, 18.6 ],
+							"to": [ 35.4, 30.8, 25.2 ],
+							"uv": [ 39.9, 276.15 ],
+							"position": [ -23, -30.2, -22.2 ]
+						}
+					]
+				},
+				{
+					"name": "head 20",
+					"position": [ 10.9, 19.8, -1.2 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 20 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 40.9, 17, 28.2 ],
+							"to": [ 46.4, 25.3, 39.8 ],
+							"uv": [ 13.65, 250.95 ],
+							"position": [ -40.9, -19.8, -28.8 ]
+						}
+					]
+				},
+				{
+					"name": "head 21",
+					"position": [ 10.9, 19.8, -4.2 ],
+					"rotation": [ -22.5, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 21 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 40.9, 17, 25.2 ],
+							"to": [ 45.4, 22.9, 29.6 ],
+							"uv": [ 67.2, 305.55 ],
+							"position": [ -40.9, -19.8, -25.8 ]
+						}
+					]
+				},
+				{
+					"name": "head 22",
+					"position": [ 14.2, 24.8, -3.7 ],
+					"rotation": [ 0, 45, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 22 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 41.1, 16.7, 20 ],
+							"to": [ 46.6, 24.9, 26.1 ],
+							"uv": [ 49.35, 263.55 ],
+							"position": [ -44.2, -24.8, -26.3 ]
+						}
+					]
+				},
+				{
+					"name": "head 23",
+					"position": [ 12.3, 20.9, -2.6 ],
+					"rotation": [ 0, 22.5, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 23 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 39, 17.2, 25.1 ],
+							"to": [ 44.8, 25.5, 28.4 ],
+							"uv": [ 123.9, 290.85 ],
+							"position": [ -42.3, -20.9, -27.4 ]
+						}
+					]
+				},
+				{
+					"name": "head 24",
+					"position": [ -0.4, 21.4, -17.7 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 24 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 29.8, 17, 1.8 ],
+							"to": [ 32.7, 28, 16.7 ],
+							"uv": [ 105, 212.1 ],
+							"position": [ -29.6, -21.4, -12.3 ]
+						}
+					]
+				},
+				{
+					"name": "head 25",
+					"position": [ -0.4, 21.4, -17.7 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 25 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 29.8, 19.8, 1.6 ],
+							"to": [ 31.3, 28.3, 16.7 ],
+							"uv": [ 69.3, 234.15 ],
+							"position": [ -29.6, -21.4, -12.3 ]
+						}
+					]
+				},
+				{
+					"name": "head 26",
+					"position": [ -0.4, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 26 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 29.8, 23, -0.2 ],
+							"to": [ 31.3, 31.5, 15 ],
+							"uv": [ 40.95, 234.15 ],
+							"position": [ -29.6, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 27",
+					"position": [ -0.1, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 27 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 29.8, 30.5, 13.7 ],
+							"to": [ 31.3, 33.8, 29.1 ],
+							"uv": [ 40.95, 254.1 ],
+							"position": [ -29.9, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 28",
+					"position": [ -0.1, 31.1, -8.4 ],
+					"rotation": [ -22.5, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 28 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 29.7, 30.8, 21.4 ],
+							"to": [ 31.3, 31.4, 29.4 ],
+							"uv": [ 23.1, 308.7 ],
+							"position": [ -29.9, -31.1, -21.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 29",
+					"position": [ -0.1, 31.1, -8.4 ],
+					"rotation": [ -22.5, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 29 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 29.7, 30.8, 21.4 ],
+							"to": [ 31.3, 34.1, 29.4 ],
+							"uv": [ 55.65, 295.05 ],
+							"position": [ -29.9, -31.1, -21.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 30",
+					"position": [ -0.4, 24.4, -12.7 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 30 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 29.8, 20, 16.2 ],
+							"to": [ 32.7, 34, 21.7 ],
+							"uv": [ 23.1, 275.1 ],
+							"position": [ -29.6, -24.4, -17.3 ]
+						}
+					]
+				},
+				{
+					"name": "head 31",
+					"position": [ -0.1, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 31 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 29.8, 19.2, 13.9 ],
+							"to": [ 32.7, 30.5, 19.4 ],
+							"uv": [ 6.3, 291.9 ],
+							"position": [ -29.9, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 32",
+					"position": [ 14.9, 30, 6.5 ],
+					"rotation": [ 22.5, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 32 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 42.1, 27, 33.7 ],
+							"to": [ 47.6, 35.2, 39.2 ],
+							"uv": [ 8.4, 275.1 ],
+							"position": [ -44.9, -30, -36.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 33",
+					"position": [ 13.6, 28, 7 ],
+					"rotation": [ 22.5, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 33 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 40.9, 25, 34.3 ],
+							"to": [ 46.4, 33.3, 39.8 ],
+							"uv": [ 141.75, 262.5 ],
+							"position": [ -43.6, -28, -37 ]
+						}
+					]
+				},
+				{
+					"name": "head 34",
+					"position": [ -0.1, 26.1, -6.4 ],
+					"rotation": [ -22.5, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 34 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 29.8, 20.6, 23.8 ],
+							"to": [ 35.4, 31.6, 40.3 ],
+							"uv": [ 53.55, 169.05 ],
+							"position": [ -29.9, -26.1, -23.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 35",
+					"position": [ 17.2, 31.9, 9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 35 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 46.1, 33.6, 35.4 ],
+							"to": [ 48.9, 41.9, 40.9 ],
+							"uv": [ 111.3, 291.9 ],
+							"position": [ -47.2, -31.9, -39.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 36",
+					"position": [ 20, 31.9, 9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 36 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 48.9, 33.6, 35.4 ],
+							"to": [ 51.6, 47.4, 40.9 ],
+							"uv": [ 87.15, 275.1 ],
+							"position": [ -50, -31.9, -39.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 37",
+					"position": [ -0.1, 15.4, -30.3 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 37 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 29.8, 11.6, -0.3 ],
+							"to": [ 32.7, 19.8, 37 ],
+							"uv": [ 32.55, 69.3 ],
+							"position": [ -29.9, -15.4, 0.3 ]
+						}
+					]
+				},
+				{
+					"name": "head 38",
+					"position": [ -0.1, 26.4, -4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 38 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 25.4, 22.5, 26 ],
+							"to": [ 32.7, 30.8, 45.3 ],
+							"uv": [ 170.1, 120.75 ],
+							"position": [ -29.9, -26.4, -26 ]
+						}
+					]
+				},
+				{
+					"name": "head 39",
+					"position": [ -0.1, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 39 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 29.8, 14.3, 9.5 ],
+							"to": [ 32.7, 22.5, 26 ],
+							"uv": [ 121.8, 192.15 ],
+							"position": [ -29.9, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "chin_right 40",
+					"position": [ -0.1, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "chin_right 40 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 38.2, 6.1, 34.3 ],
+							"to": [ 40.9, 17, 37 ],
+							"uv": [ 10.5, 312.9 ],
+							"position": [ -29.9, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "chin_right 41",
+					"position": [ -0.1, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "chin_right 41 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 38.2, 0.6, 12.3 ],
+							"to": [ 40.9, 6.1, 39.8 ],
+							"uv": [ 24.15, 128.1 ],
+							"position": [ -29.9, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "chin_right 42",
+					"position": [ 8.7, 3, -19.1 ],
+					"rotation": [ 0, 22.5, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "chin_right 42 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 39.8, 2.8, 11.7 ],
+							"to": [ 38.2, 6.6, 10.1 ],
+							"uv": [ 32.55, 333.9 ],
+							"position": [ -38.7, -3, -10.9 ]
+						}
+					]
+				},
+				{
+					"name": "chin_right 43",
+					"position": [ 6.1, 3, -25.7 ],
+					"rotation": [ 0, 45, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "chin_right 43 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 37.2, 2.8, 5.1 ],
+							"to": [ 35.5, 6.6, 3.5 ],
+							"uv": [ 32.55, 331.8 ],
+							"position": [ -36.1, -3, -4.3 ]
+						}
+					]
+				},
+				{
+					"name": "chin_right 44",
+					"position": [ 11.5, 0.3, -13.3 ],
+					"rotation": [ 0, 22.5, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "chin_right 44 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 40.1, -2.2, -0.1 ],
+							"to": [ 42.8, 3.3, 16.4 ],
+							"uv": [ 75.6, 213.15 ],
+							"position": [ -41.5, -0.3, -16.7 ]
+						}
+					]
+				},
+				{
+					"name": "chin_right 45",
+					"position": [ -0.1, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "chin_right 45 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 40.4, 5.5, 28.2 ],
+							"to": [ 38.7, 9.4, 26.6 ],
+							"uv": [ 32.55, 329.7 ],
+							"position": [ -29.9, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "chin_right 46",
+					"position": [ -0.1, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "chin_right 46 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 40.4, 5.5, 17.2 ],
+							"to": [ 38.7, 9.4, 15.6 ],
+							"uv": [ 32.55, 328.65 ],
+							"position": [ -29.9, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "chin_right 47",
+					"position": [ 10.9, 3.3, -9.5 ],
+					"rotation": [ 0, 22.5, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "chin_right 47 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 36.8, 0.6, 20.5 ],
+							"to": [ 40.9, 6.1, 28.8 ],
+							"uv": [ 10.5, 265.65 ],
+							"position": [ -40.9, -3.3, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 48",
+					"position": [ -15.9, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 48 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 8.6, 11.6, 4 ],
+							"to": [ 14.2, 17, 23.3 ],
+							"uv": [ 102.9, 149.1 ],
+							"position": [ -14.1, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 49",
+					"position": [ -15.9, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 49 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 10.8, 7.7, 6.5 ],
+							"to": [ 9.1, 11.6, 4.9 ],
+							"uv": [ 32.55, 333.9 ],
+							"position": [ -14.1, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 50",
+					"position": [ -14.4, 9.6, -27.1 ],
+					"rotation": [ 0, -22.5, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 50 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 16.4, 6, 3.7 ],
+							"to": [ 14.7, 11.6, 2 ],
+							"uv": [ 32.55, 328.65 ],
+							"position": [ -15.6, -9.6, -2.9 ]
+						}
+					]
+				},
+				{
+					"name": "head 51",
+					"position": [ -1.5, 9.6, -27.1 ],
+					"rotation": [ 0, 22.5, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 51 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 29.4, 6, 3.7 ],
+							"to": [ 27.7, 11.6, 2 ],
+							"uv": [ 28.35, 331.8 ],
+							"position": [ -28.5, -9.6, -2.9 ]
+						}
+					]
+				},
+				{
+					"name": "head 52",
+					"position": [ -1.5, 9.6, -27.1 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 52 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 24.5, 7.5, 3.7 ],
+							"to": [ 22.9, 11.6, 2 ],
+							"uv": [ 32.55, 328.65 ],
+							"position": [ -28.5, -9.6, -2.9 ]
+						}
+					]
+				},
+				{
+					"name": "head 53",
+					"position": [ -1.5, 9.6, -27.1 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 53 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 20.5, 7.5, 3.7 ],
+							"to": [ 18.9, 11.6, 2 ],
+							"uv": [ 32.55, 331.8 ],
+							"position": [ -28.5, -9.6, -2.9 ]
+						}
+					]
+				},
+				{
+					"name": "head 54",
+					"position": [ -15.9, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 54 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 8, 8.2, 25.5 ],
+							"to": [ 6.4, 12.1, 23.8 ],
+							"uv": [ 32.55, 331.8 ],
+							"position": [ -14.1, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 55",
+					"position": [ -21.5, 13.3, -9.5 ],
+					"rotation": [ 0, 0, -45 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 55 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 3, 13.3, 9.5 ],
+							"to": [ 10.2, 18.8, 37 ],
+							"uv": [ 94.5, 60.9 ],
+							"position": [ -8.5, -13.3, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 56",
+					"position": [ -18.1, 16.2, -9.5 ],
+					"rotation": [ 0, 0, -22.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 56 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 6.4, 16.2, 9.5 ],
+							"to": [ 11.4, 21.7, 37 ],
+							"uv": [ 27.3, 99.75 ],
+							"position": [ -11.9, -16.2, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 57",
+					"position": [ -24.4, 19.7, -12.8 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 57 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 2.7, 17.7, 19 ],
+							"to": [ 9.5, 25.3, 21.8 ],
+							"uv": [ 52.5, 304.5 ],
+							"position": [ -5.6, -19.7, -17.2 ]
+						}
+					]
+				},
+				{
+					"name": "head 58",
+					"position": [ -24.4, 20.9, -15.5 ],
+					"rotation": [ 0, 45, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 58 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 2.7, 18.9, 16.3 ],
+							"to": [ 9.5, 25.7, 19 ],
+							"uv": [ 110.25, 304.5 ],
+							"position": [ -5.6, -20.9, -14.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 59",
+					"position": [ -6.8, 37.4, 2.7 ],
+					"rotation": [ 45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 59 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 18.6, 34, 32 ],
+							"to": [ 25.5, 40.9, 34.8 ],
+							"uv": [ 95.55, 304.5 ],
+							"position": [ -23.2, -37.4, -32.7 ]
+						}
+					]
+				},
+				{
+					"name": "head 60",
+					"position": [ -25.3, 20.9, -16.6 ],
+					"rotation": [ 0, 45, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 60 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 2.1, 20.3, 17.4 ],
+							"to": [ 6.2, 24.2, 16.3 ],
+							"uv": [ 33.6, 328.65 ],
+							"position": [ -4.7, -20.9, -13.4 ]
+						}
+					]
+				},
+				{
+					"name": "head 61",
+					"position": [ -25.3, 20.9, -16.6 ],
+					"rotation": [ 0, 45, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 61 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 1.8, 19.9, 16.2 ],
+							"to": [ 6.6, 24.7, 16.8 ],
+							"uv": [ 14.7, 325.5 ],
+							"position": [ -4.7, -20.9, -13.4 ]
+						}
+					]
+				},
+				{
+					"name": "head 62",
+					"position": [ -25.3, 20.9, -16.6 ],
+					"rotation": [ 0, 45, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 62 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 2.2, 20.3, 16.1 ],
+							"to": [ 6.2, 24.3, 16.8 ],
+							"uv": [ 14.7, 321.3 ],
+							"position": [ -4.7, -20.9, -13.4 ]
+						}
+					]
+				},
+				{
+					"name": "head 63",
+					"position": [ -6.8, 37.4, 2.7 ],
+					"rotation": [ 45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 63 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 19.7, 35.1, 31.7 ],
+							"to": [ 24.5, 39.8, 32.3 ],
+							"uv": [ 7.35, 325.5 ],
+							"position": [ -23.2, -37.4, -32.7 ]
+						}
+					]
+				},
+				{
+					"name": "head 64",
+					"position": [ -6.8, 37.4, 2.7 ],
+					"rotation": [ 45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 64 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 20, 35.3, 31.6 ],
+							"to": [ 24.2, 39.5, 32.3 ],
+							"uv": [ 7.35, 321.3 ],
+							"position": [ -23.2, -37.4, -32.7 ]
+						}
+					]
+				},
+				{
+					"name": "head 65",
+					"position": [ -23.6, 20.9, -13.9 ],
+					"rotation": [ 22.5, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 65 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 9, 18.9, 17.9 ],
+							"to": [ 10.4, 25.7, 20.7 ],
+							"uv": [ 30.45, 312.9 ],
+							"position": [ -6.4, -20.9, -16.1 ]
+						}
+					]
+				},
+				{
+					"name": "head 66",
+					"position": [ -19.2, 14.3, -24.3 ],
+					"rotation": [ 0, -22.5, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 66 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 8, 11.6, 5.1 ],
+							"to": [ 13.5, 17.3, 12 ],
+							"uv": [ 123.9, 263.55 ],
+							"position": [ -10.8, -14.3, -5.7 ]
+						}
+					]
+				},
+				{
+					"name": "head 67",
+					"position": [ -18.1, 14.3, -25.1 ],
+					"rotation": [ 0, -45, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 67 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 9.1, 11.6, 3.8 ],
+							"to": [ 13.4, 17.3, 7.1 ],
+							"uv": [ 137.55, 304.5 ],
+							"position": [ -11.9, -14.3, -4.9 ]
+						}
+					]
+				},
+				{
+					"name": "head 68",
+					"position": [ -18.1, 17, -25.2 ],
+					"rotation": [ 0, 0, -45 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 68 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 9.1, 14.6, 4.3 ],
+							"to": [ 14.6, 17.5, 10.6 ],
+							"uv": [ 115.5, 276.15 ],
+							"position": [ -11.9, -17, -4.8 ]
+						}
+					]
+				},
+				{
+					"name": "head 69",
+					"position": [ -18.1, 19.8, -24.3 ],
+					"rotation": [ 0, 0, -45 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 69 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 9.1, 17.3, 5.1 ],
+							"to": [ 11.5, 22.5, 11.5 ],
+							"uv": [ 97.65, 292.95 ],
+							"position": [ -11.9, -19.8, -5.7 ]
+						}
+					]
+				},
+				{
+					"name": "head 70",
+					"position": [ -15.9, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 70 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 8, 8.2, 14.5 ],
+							"to": [ 6.4, 12.1, 12.8 ],
+							"uv": [ 32.55, 329.7 ],
+							"position": [ -14.1, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 71",
+					"position": [ -15.9, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 71 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 3.1, 17, 20.5 ],
+							"to": [ 14.2, 30.8, 34.3 ],
+							"uv": [ 19.95, 143.85 ],
+							"position": [ -14.1, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 72",
+					"position": [ -26.4, 17.3, 4.6 ],
+					"rotation": [ 0, 0, -45 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 72 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 3.4, 16.6, 20.8 ],
+							"to": [ 9.5, 24.2, 34.6 ],
+							"uv": [ 153.3, 190.05 ],
+							"position": [ -3.6, -17.3, -34.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 73",
+					"position": [ -22.8, 30.2, -7.8 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 73 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 4.2, 25.3, 18.6 ],
+							"to": [ 14.1, 30.8, 25.2 ],
+							"uv": [ 97.65, 246.75 ],
+							"position": [ -7.2, -30.2, -22.2 ]
+						}
+					]
+				},
+				{
+					"name": "head 74",
+					"position": [ -9, 30.2, -7.8 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 74 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 8.6, 25.3, 18.6 ],
+							"to": [ 14.2, 30.8, 25.2 ],
+							"uv": [ 103.95, 263.55 ],
+							"position": [ -21, -30.2, -22.2 ]
+						}
+					]
+				},
+				{
+					"name": "head 75",
+					"position": [ -26.9, 19.8, -1.2 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 75 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ -2.4, 17, 28.2 ],
+							"to": [ 3.1, 25.3, 39.8 ],
+							"uv": [ 131.25, 231 ],
+							"position": [ -3.1, -19.8, -28.8 ]
+						}
+					]
+				},
+				{
+					"name": "head 76",
+					"position": [ -26.9, 19.8, -4.2 ],
+					"rotation": [ -22.5, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 76 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ -1.4, 17, 25.2 ],
+							"to": [ 3.1, 22.9, 29.6 ],
+							"uv": [ 38.85, 305.55 ],
+							"position": [ -3.1, -19.8, -25.8 ]
+						}
+					]
+				},
+				{
+					"name": "head 77",
+					"position": [ -30.2, 24.8, -3.7 ],
+					"rotation": [ 0, -45, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 77 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ -2.6, 16.7, 20 ],
+							"to": [ 2.9, 24.9, 26.1 ],
+							"uv": [ 30.45, 263.55 ],
+							"position": [ 0.2, -24.8, -26.3 ]
+						}
+					]
+				},
+				{
+					"name": "head 78",
+					"position": [ -28.3, 20.9, -2.6 ],
+					"rotation": [ 0, -22.5, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 78 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ -0.8, 17.2, 25.1 ],
+							"to": [ 5, 25.5, 28.4 ],
+							"uv": [ 82.95, 290.85 ],
+							"position": [ -1.7, -20.9, -27.4 ]
+						}
+					]
+				},
+				{
+					"name": "head 79",
+					"position": [ -15.6, 21.4, -17.7 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 79 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 11.3, 17, 1.8 ],
+							"to": [ 14.2, 28, 16.7 ],
+							"uv": [ 46.2, 212.1 ],
+							"position": [ -14.4, -21.4, -12.3 ]
+						}
+					]
+				},
+				{
+					"name": "head 80",
+					"position": [ -15.6, 21.4, -17.7 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 80 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 12.7, 19.8, 1.6 ],
+							"to": [ 14.2, 28.3, 16.7 ],
+							"uv": [ 13.65, 234.15 ],
+							"position": [ -14.4, -21.4, -12.3 ]
+						}
+					]
+				},
+				{
+					"name": "head 81",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 81 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 12.7, 23, -0.2 ],
+							"to": [ 19.7, 31.5, 15 ],
+							"uv": [ 56.7, 191.1 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 82",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 82 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 19.6, 23, 3.9 ],
+							"to": [ 21.9, 31.5, 4.7 ],
+							"uv": [ 2.1, 321.3 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 83",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 83 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 19.6, 23, 4.7 ],
+							"to": [ 21.8, 31.5, 5.3 ],
+							"uv": [ 87.15, 310.8 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 84",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 84 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 19.6, 23, 5.3 ],
+							"to": [ 21.7, 31.5, 5.7 ],
+							"uv": [ 82.95, 310.8 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 85",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 85 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 19.6, 23, 5.7 ],
+							"to": [ 21.7, 31.5, 6.1 ],
+							"uv": [ 78.75, 310.8 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 86",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 86 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 19.6, 23, 6.1 ],
+							"to": [ 21.6, 31.5, 6.5 ],
+							"uv": [ 74.55, 310.8 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 87",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 87 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 19.6, 23, 6.5 ],
+							"to": [ 21.5, 31.5, 7 ],
+							"uv": [ 23.1, 329.7 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 88",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 88 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 19.6, 23, 7 ],
+							"to": [ 21.4, 31.5, 7.4 ],
+							"uv": [ 21, 329.7 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 89",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 89 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 19.6, 23, 7.4 ],
+							"to": [ 21.3, 31.5, 8 ],
+							"uv": [ 18.9, 329.7 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 90",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 90 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 19.6, 23, 8 ],
+							"to": [ 21.2, 31.5, 8.4 ],
+							"uv": [ 15.75, 329.7 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 91",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 91 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 19.6, 23, 8.4 ],
+							"to": [ 21.1, 31.5, 8.9 ],
+							"uv": [ 13.65, 329.7 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 92",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 92 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 19.6, 23, 8.9 ],
+							"to": [ 21.1, 31.5, 9.5 ],
+							"uv": [ 10.5, 329.7 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 93",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 93 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 19.6, 23, 9.5 ],
+							"to": [ 21, 31.5, 10.3 ],
+							"uv": [ 8.4, 329.7 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 94",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 94 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 19.6, 23, 10.3 ],
+							"to": [ 20.9, 31.5, 11.2 ],
+							"uv": [ 6.3, 329.7 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 95",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 95 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 19.6, 23, 11.2 ],
+							"to": [ 20.8, 31.5, 11.8 ],
+							"uv": [ 3.15, 329.7 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 96",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 96 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 19.6, 23, 11.8 ],
+							"to": [ 20.7, 31.5, 12.4 ],
+							"uv": [ 1.05, 329.7 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 97",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 97 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 19.6, 23, 12.4 ],
+							"to": [ 20.6, 31.5, 13 ],
+							"uv": [ 68.25, 321.3 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 98",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 98 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 19.6, 23, 13 ],
+							"to": [ 20.5, 31.5, 13.6 ],
+							"uv": [ 31.5, 329.7 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 99",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 99 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 19.6, 23, 13.6 ],
+							"to": [ 20.5, 31.5, 14.2 ],
+							"uv": [ 30.45, 329.7 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 100",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 100 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 19.6, 23, 14.2 ],
+							"to": [ 20.4, 31.5, 14.6 ],
+							"uv": [ 29.4, 329.7 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 101",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 101 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 19.6, 23, 14.6 ],
+							"to": [ 20.3, 31.5, 15 ],
+							"uv": [ 28.35, 329.7 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 102",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 102 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 22.1, 23, 3.9 ],
+							"to": [ 24.4, 31.5, 4.7 ],
+							"uv": [ 70.35, 310.8 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 103",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 103 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 22.2, 23, 4.7 ],
+							"to": [ 24.4, 31.5, 5.3 ],
+							"uv": [ 66.15, 310.8 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 104",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 104 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 22.3, 23, 5.3 ],
+							"to": [ 24.4, 31.5, 5.7 ],
+							"uv": [ 61.95, 310.8 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 105",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 105 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 22.3, 23, 5.7 ],
+							"to": [ 24.4, 31.5, 6.1 ],
+							"uv": [ 57.75, 310.8 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 106",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 106 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 22.4, 23, 6.1 ],
+							"to": [ 24.4, 31.5, 6.5 ],
+							"uv": [ 53.55, 310.8 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 107",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 107 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 22.5, 23, 6.5 ],
+							"to": [ 24.4, 31.5, 7 ],
+							"uv": [ 65.1, 321.3 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 108",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 108 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 22.6, 23, 7 ],
+							"to": [ 24.4, 31.5, 7.4 ],
+							"uv": [ 63, 321.3 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 109",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 109 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 22.7, 23, 7.4 ],
+							"to": [ 24.4, 31.5, 8 ],
+							"uv": [ 60.9, 321.3 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 110",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 110 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 22.8, 23, 8 ],
+							"to": [ 24.4, 31.5, 8.4 ],
+							"uv": [ 57.75, 321.3 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 111",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 111 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 22.9, 23, 8.4 ],
+							"to": [ 24.4, 31.5, 8.9 ],
+							"uv": [ 55.65, 321.3 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 112",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 112 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 22.9, 23, 8.9 ],
+							"to": [ 24.4, 31.5, 9.5 ],
+							"uv": [ 52.5, 321.3 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 113",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 113 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 23, 23, 9.5 ],
+							"to": [ 24.4, 31.5, 10.3 ],
+							"uv": [ 50.4, 321.3 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 114",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 114 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 23.1, 23, 10.3 ],
+							"to": [ 24.4, 31.5, 11.2 ],
+							"uv": [ 48.3, 321.3 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 115",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 115 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 23.2, 23, 11.2 ],
+							"to": [ 24.4, 31.5, 11.8 ],
+							"uv": [ 45.15, 321.3 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 116",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 116 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 23.3, 23, 11.8 ],
+							"to": [ 24.4, 31.5, 12.4 ],
+							"uv": [ 43.05, 321.3 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 117",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 117 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 23.4, 23, 12.4 ],
+							"to": [ 24.4, 31.5, 13 ],
+							"uv": [ 39.9, 321.3 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 118",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 118 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 23.5, 23, 13 ],
+							"to": [ 24.4, 31.5, 13.6 ],
+							"uv": [ 27.3, 329.7 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 119",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 119 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 23.5, 23, 13.6 ],
+							"to": [ 24.4, 31.5, 14.2 ],
+							"uv": [ 27.3, 329.7 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 120",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 120 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 23.6, 23, 14.2 ],
+							"to": [ 24.4, 31.5, 14.6 ],
+							"uv": [ 26.25, 329.7 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 121",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 121 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 23.7, 23, 14.6 ],
+							"to": [ 24.4, 31.5, 15 ],
+							"uv": [ 25.2, 329.7 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 122",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 122 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 21.1, 23, 14.6 ],
+							"to": [ 22.9, 31.5, 15 ],
+							"uv": [ 37.8, 321.3 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 123",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 123 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 21.1, 23, 14.4 ],
+							"to": [ 22.9, 31.5, 15 ],
+							"uv": [ 35.7, 321.3 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 124",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 124 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 21.2, 23, 14.2 ],
+							"to": [ 22.8, 31.5, 15 ],
+							"uv": [ 32.55, 321.3 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 125",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 125 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 21.3, 23, 13.9 ],
+							"to": [ 22.7, 31.5, 15 ],
+							"uv": [ 49.35, 311.85 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 126",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 126 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 21.4, 23, 13.7 ],
+							"to": [ 22.6, 31.5, 15 ],
+							"uv": [ 45.15, 311.85 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 127",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 127 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 21.5, 23, 13.4 ],
+							"to": [ 22.5, 31.5, 15 ],
+							"uv": [ 40.95, 311.85 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 128",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 128 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 21.6, 23, 13.3 ],
+							"to": [ 22.4, 31.5, 15 ],
+							"uv": [ 30.45, 322.35 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 129",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 129 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 21.7, 23, 13.1 ],
+							"to": [ 22.3, 31.5, 15 ],
+							"uv": [ 27.3, 322.35 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 130",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 130 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 21.7, 23, 12.9 ],
+							"to": [ 22.3, 31.5, 15 ],
+							"uv": [ 25.2, 312.9 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 131",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 131 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 21.8, 23, 12.7 ],
+							"to": [ 22.2, 31.5, 15 ],
+							"uv": [ 21, 312.9 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 132",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 132 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 21.9, 23, 12.6 ],
+							"to": [ 22.1, 31.5, 15 ],
+							"uv": [ 16.8, 312.9 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 133",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 133 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 12.7, 23, -0.2 ],
+							"to": [ 29, 31.5, 3.9 ],
+							"uv": [ 99.75, 224.7 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 134",
+					"position": [ -15.6, 24.6, -19.4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 134 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 24.3, 23, -0.2 ],
+							"to": [ 31.3, 31.5, 15 ],
+							"uv": [ 18.9, 191.1 ],
+							"position": [ -14.4, -24.6, -10.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 135",
+					"position": [ -15.9, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 135 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 12.7, 30.5, 13.7 ],
+							"to": [ 30.1, 33.8, 29.1 ],
+							"uv": [ 76.65, 117.6 ],
+							"position": [ -14.1, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 136",
+					"position": [ -15.9, 31.1, -8.4 ],
+					"rotation": [ -22.5, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 136 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 12.7, 30.8, 21.4 ],
+							"to": [ 14.3, 31.4, 29.4 ],
+							"uv": [ 7.35, 308.7 ],
+							"position": [ -14.1, -31.1, -21.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 137",
+					"position": [ -15.9, 31.1, -8.4 ],
+					"rotation": [ -22.5, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 137 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 12.7, 30.8, 21.4 ],
+							"to": [ 14.3, 34.1, 29.4 ],
+							"uv": [ 39.9, 295.05 ],
+							"position": [ -14.1, -31.1, -21.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 138",
+					"position": [ -15.6, 24.4, -12.7 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 138 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 11.3, 20, 16.2 ],
+							"to": [ 30.3, 34, 21.7 ],
+							"uv": [ 135.45, 159.6 ],
+							"position": [ -14.4, -24.4, -17.3 ]
+						}
+					]
+				},
+				{
+					"name": "head 139",
+					"position": [ -15.9, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 139 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 11.3, 19.2, 13.9 ],
+							"to": [ 14.2, 30.5, 19.4 ],
+							"uv": [ 99.75, 275.1 ],
+							"position": [ -14.1, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 140",
+					"position": [ -30.9, 30, 6.5 ],
+					"rotation": [ 22.5, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 140 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ -3.6, 27, 33.7 ],
+							"to": [ 1.9, 35.2, 39.2 ],
+							"uv": [ 86.1, 262.5 ],
+							"position": [ 0.9, -30, -36.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 141",
+					"position": [ -29.6, 28, 7 ],
+					"rotation": [ 22.5, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 141 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ -2.4, 25, 34.3 ],
+							"to": [ 3.1, 33.3, 39.8 ],
+							"uv": [ 68.25, 262.5 ],
+							"position": [ -0.4, -28, -37 ]
+						}
+					]
+				},
+				{
+					"name": "head 142",
+					"position": [ -15.9, 26.1, -6.4 ],
+					"rotation": [ -22.5, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 142 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 8.6, 20.6, 23.8 ],
+							"to": [ 14.2, 31.6, 40.3 ],
+							"uv": [ 17.85, 169.05 ],
+							"position": [ -14.1, -26.1, -23.6 ]
+						}
+					]
+				},
+				{
+					"name": "head 143",
+					"position": [ -33.2, 31.9, 9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 143 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ -4.9, 33.6, 35.4 ],
+							"to": [ -2.1, 41.9, 40.9 ],
+							"uv": [ 69.3, 291.9 ],
+							"position": [ 3.2, -31.9, -39.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 144",
+					"position": [ -36, 31.9, 9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 144 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ -7.6, 33.6, 35.4 ],
+							"to": [ -4.9, 47.4, 40.9 ],
+							"uv": [ 74.55, 275.1 ],
+							"position": [ 6, -31.9, -39.5 ]
+						}
+					]
+				},
+				{
+					"name": "head 145",
+					"position": [ -15.9, 15.4, -30.3 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 145 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 11.3, 11.6, -0.3 ],
+							"to": [ 14.2, 19.8, 37 ],
+							"uv": [ 123.9, 31.5 ],
+							"position": [ -14.1, -15.4, 0.3 ]
+						}
+					]
+				},
+				{
+					"name": "head 146",
+					"position": [ -15.9, 15.4, -30.3 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 146 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 11.3, 11.6, 1.5 ],
+							"to": [ 30.5, 19.8, 37 ],
+							"uv": [ 45.15, 29.4 ],
+							"position": [ -14.1, -15.4, 0.3 ]
+						}
+					]
+				},
+				{
+					"name": "head 147",
+					"position": [ -15.9, 26.4, -4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 147 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 11.3, 22.5, 26 ],
+							"to": [ 18.6, 30.8, 45.3 ],
+							"uv": [ 126, 120.75 ],
+							"position": [ -14.1, -26.4, -26 ]
+						}
+					]
+				},
+				{
+					"name": "head 148",
+					"position": [ -15.9, 26.4, -4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 148 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 11.3, 22.5, 26 ],
+							"to": [ 27.8, 30.8, 35.3 ],
+							"uv": [ 93.45, 162.75 ],
+							"position": [ -14.1, -26.4, -26 ]
+						}
+					]
+				},
+				{
+					"name": "head 149",
+					"position": [ -15.9, 26.4, -4 ],
+					"rotation": [ -45, 0, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 149 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 11.3, 22.5, 41.9 ],
+							"to": [ 27.8, 30.8, 43.6 ],
+							"uv": [ 69.3, 242.55 ],
+							"position": [ -14.1, -26.4, -26 ]
+						}
+					]
+				},
+				{
+					"name": "head 150",
+					"position": [ -15.9, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "head 150 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 11.3, 14.3, 9.5 ],
+							"to": [ 14.2, 22.5, 26 ],
+							"uv": [ 90.3, 192.15 ],
+							"position": [ -14.1, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "chin_right 151",
+					"position": [ -15.9, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "chin_right 151 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 3.1, 6.1, 34.3 ],
+							"to": [ 5.8, 17, 37 ],
+							"uv": [ 3.15, 312.9 ],
+							"position": [ -14.1, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "chin_right 152",
+					"position": [ -15.9, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "chin_right 152 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 3.1, 0.6, 12.3 ],
+							"to": [ 5.8, 6.1, 39.8 ],
+							"uv": [ 133.35, 99.75 ],
+							"position": [ -14.1, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "chin_right 153",
+					"position": [ -24.7, 3, -19.1 ],
+					"rotation": [ 0, -22.5, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "chin_right 153 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 5.8, 2.8, 11.7 ],
+							"to": [ 4.2, 6.6, 10.1 ],
+							"uv": [ 32.55, 328.65 ],
+							"position": [ -5.3, -3, -10.9 ]
+						}
+					]
+				},
+				{
+					"name": "chin_right 154",
+					"position": [ -22.1, 3, -25.7 ],
+					"rotation": [ 0, -45, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "chin_right 154 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 8.5, 2.8, 5.1 ],
+							"to": [ 6.8, 6.6, 3.5 ],
+							"uv": [ 32.55, 333.9 ],
+							"position": [ -7.9, -3, -4.3 ]
+						}
+					]
+				},
+				{
+					"name": "chin_right 155",
+					"position": [ -27.5, 0.3, -13.3 ],
+					"rotation": [ 0, -22.5, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "chin_right 155 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 1.2, -2.2, -0.1 ],
+							"to": [ 3.9, 3.3, 16.4 ],
+							"uv": [ 134.4, 213.15 ],
+							"position": [ -2.5, -0.3, -16.7 ]
+						}
+					]
+				},
+				{
+					"name": "chin_right 156",
+					"position": [ -15.9, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "chin_right 156 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 5.3, 5.5, 28.2 ],
+							"to": [ 3.6, 9.4, 26.6 ],
+							"uv": [ 32.55, 332.85 ],
+							"position": [ -14.1, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "chin_right 157",
+					"position": [ -15.9, 0, -9.5 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "chin_right 157 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 5.3, 5.5, 17.2 ],
+							"to": [ 3.6, 9.4, 15.6 ],
+							"uv": [ 32.55, 330.75 ],
+							"position": [ -14.1, 0, -20.5 ]
+						}
+					]
+				},
+				{
+					"name": "chin_right 158",
+					"position": [ -26.9, 3.3, -9.5 ],
+					"rotation": [ 0, -22.5, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"description": "chin_right 158 shape",
+							"texture": "texture.png",
+							"texture_size": [ 512, 512 ],
+							"from": [ 3.1, 0.6, 20.5 ],
+							"to": [ 7.2, 6.1, 28.8 ],
+							"uv": [ 147, 248.85 ],
+							"position": [ -3.1, -3.3, -20.5 ]
+						}
+					]
+				}
+			]
+		}
+	]
+}
