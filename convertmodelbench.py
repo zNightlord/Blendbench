@@ -8,8 +8,9 @@ from PIL import Image
 # file
 filepath = "D:\SourceCode\Python\Mine imator\storage\OuterTaleSans\OuterTaleSans\OuterTaleGasterBlaster_convert.json"
 newFilepath = "D:\SourceCode\Python\Mine imator\Blendbench\converted"
-offset = True
 
+# setting
+offset = True
 a = 1.05
 round = 0
 multiplier = 3.75
@@ -17,30 +18,35 @@ UVmultiplier = 20
 
 # file variables
 filetype = [".json",".mimodel"]
+file = os.path.split(filepath)
 
 #default
 defaultTexture = "Default texture" # default Inherit texture. Relative file path?
 defaultTextureSize = [16,16] # default based on Inherit texture # What does the "texture_size" even do? I don't even know
+debug = False
 
 def load(filepath): # Load mimodel and Minecraft json
-    with open(filepath, "r") as fileObject:
-        data = json.load(fileObject)
-        textureIndex = 0
-        try: # Exception No "textures" found
-            try:
-                texture = data["textures"][str(textureIndex)]
-            except IndexError:
-                textureIndex+=1
-                texture = data["textures"][str(textureIndex)]
-        except KeyError:
-            texture = defaultTexture
-        try: # Exception No "textures_size" found
-            texture_size=data["texture_size"]
-        except KeyError:
-            texture_size= defaultTextureSize
+    try:
+        with open(filepath, "r") as fileObject:
+            data = json.load(fileObject)
+            textureIndex = 0
+            try: # Exception No "textures" found
+                try:
+                    texture = data["textures"][str(textureIndex)]
+                except IndexError:
+                    textureIndex+=1
+                    texture = data["textures"][str(textureIndex)]
+            except KeyError:
+                texture = defaultTexture
+            try: # Exception No "textures_size" found
+                texture_size=data["texture_size"]
+            except KeyError:
+                texture_size= defaultTextureSize
 
-        elements = data["elements"] # Extract "elements"
-        return elements, texture, texture_size
+            elements = data["elements"] # Extract "elements"
+            return elements, texture, texture_size
+    except FileNotFoundError:
+        print('File not found. Please recheck your file or directory make sure it\'s in the right path.')
 
 def worldGrid(offset): # offset worldGrid by (8,0,8) because it doesn't make sense for Blockbench for the world origin at the corner of the grid
     pivotOffset = [0,0,0]
@@ -49,6 +55,10 @@ def worldGrid(offset): # offset worldGrid by (8,0,8) because it doesn't make sen
     else:
         pass
     return pivotOffset
+
+def UVLayout(value,*args):
+    value = np.round(value*UVmultiplier*args[0],decimals=0).tolist()*a
+    return value
 
 def axisPart(axis,angle): #axis Rotation
     if axis == "x":
@@ -61,18 +71,18 @@ def axisPart(axis,angle): #axis Rotation
 
 def convertBlock(filepath,offset): 
     elements, texture, texture_size = load(filepath)
-    model = os.path.split(filepath)[1].replace(filetype[0],'')
+    model = file[1].replace(filetype[0],'')
     pivotOffset = worldGrid(offset)
     if texture == "Default texture":
         texture = "Default texture.png"
     else:
         texture = texture.split('/')[1]+".png"
 
-    imageTex = np.array(Image.open(filepath + texture))
+    imageTex = np.array(Image.open(file[0]+ "\\" + texture))
     imageSize = imageTex.shape # Image Size
     imageX = imageSize[0]
     imageY = imageSize[1]
-
+    
     mimodel_json = {
         "name": model + " converted by Blendbench - zNight Animatics",
         "texture": texture,
@@ -84,7 +94,7 @@ def convertBlock(filepath,offset):
     total_parts = 0 # total
     
     parts = []
-    for element in elements: # Extract "elements" list
+    for i,element in enumerate(elements): # Extract "elements" list
         part = element
         try: # Exception No "name" found. 
             partName = part["name"]
@@ -119,11 +129,13 @@ def convertBlock(filepath,offset):
         face = shape["faces"]
         faceU = face["up"]["uv"][0]
         faceE = face["east"]["uv"][1]
+        
         h = 0
         w = 0
-        h = imageY*0.0025
-        w = imageX*0.0025
-        texturePos=[np.round(faceU*UVmultiplier*h,decimals=0).tolist()*a,np.round(faceE*UVmultiplier*w,decimals=0).tolist()*a]
+        h = imageY*0.0035
+        w = imageX*0.0035
+
+        texturePos=[UVLayout(faceU,h)-10,UVLayout(faceE,w)*1.05-8]
 
         if texture_size[0] == 32:
             textureScale = 2
@@ -170,7 +182,6 @@ def convertBlock(filepath,offset):
             "shapes": shape
         })
     parentPart = []
-
     parentPart.append({
         "name": model,
         # "color_blend": "#000000",
@@ -197,15 +208,17 @@ def exportMI(filepath,newFilepath,offset):
     newFilepath = newFilepath+"\\"+file
     with open(newFilepath, "w") as f:
         json.dump(mimodel_json, f)
+    
+def convertDebug(filepath,offset,debug):
+    mimodel_json = convertBlock(filepath,offset)
+    if debug:
         print(mimodel_json)
-        # print("\n")
-        # print(total_parts)
 
-def convert(filepath,newFilepath,offset):
-    try:
-        exportMI(filepath,newFilepath,offset)
-    except FileNotFoundError:
-        print('File not found. Please recheck your file or directory make sure it\'s in the right path.')
-
+def convert(filepath,newFilepath,offset,debug):
+    exportMI(filepath,newFilepath,offset)
+    convertDebug(filepath,offset,debug)
+    
 if __name__ == "__main__":
-    convert(filepath,newFilepath,offset)
+    # clear screen
+    os.system('cls')
+    convert(filepath,newFilepath,offset,debug)
