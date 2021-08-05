@@ -1,6 +1,7 @@
 # Blendbench
 
-An extra extension for modelbench to convert Minecraft json file and backwards.
+An extra extension for Modelbench to convert Minecraft json file and backwards. Blockbench <-> Modelbench :) 
+I mainly work with Blender but.
 <br/>
 *currently as a standalone run with python*
 
